@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "abdullahi",
+      "email": "amohakaka@gmail.com",
+      "password": "072258",
+      "bio": "Aspiring web developer interested in front-end technologies.",
+      "interests": ["coding", "art", "marketing"]
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Intro to Web Development",
+      "description": "Learn the basics of HTML, CSS, and JS",
+      "category": "coding"
+    },
+    {
+      "id": 2,
+      "title": "Creative Writing 101",
+      "description": "Improve your writing skills with guided exercises",
+      "category": "art"
+    },
+    {
+      "id": 3,
+      "title": "Introduction to Marketing",
+      "description": "Basics of digital marketing and brand building",
+      "category": "marketing"
+    }
+  ],
+  "mentors": [
+    {
+      "id": 1,
+      "name": "Jane ",
+      "expertise": "Web Development",
+      "bio": "Full-stack developer with 5 years of experience",
+      "availability": {
+        "days": ["Mon", "Wed"],
+        "times": ["9am-11am"]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Mark ",
+      "expertise": "Digital Marketing",
+      "bio": "Marketing strategist helping startups scale",
+      "availability": {
+        "days": ["Tue", "Thu"],
+        "times": ["10am-12pm"]
+      }
+    }
+  ],
+  "forum_threads": [
+    {
+      "id": 1,
+      "title": "How to prepare a coding portfolio?",
+      "category": "Career"
+    },
+    {
+      "id": 2,
+      "title": "Share your favorite writing resources",
+      "category": "Skill-Building"
+    }
+  ],
+  "mental_health_tips": [
+    {
+      "id": 1,
+      "tip": "Take a 5-minute break every hour to stretch and breathe."
+    },
+    {
+      "id": 2,
+      "tip": "Keep a journal to track your mood and identify patterns."
+    },
+    {
+      "id": 3,
+      "tip": "Practice deep breathing or short meditation to reset your mind."
+    }
+  ]
+}

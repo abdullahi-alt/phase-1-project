@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Youth Empowerment Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand" data-page="home">Youth Empowerment</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#" data-page="home">Home</a></li>
+        <li><a href="#" data-page="courses">Courses</a></li>
+        <li><a href="#" data-page="mentors">Mentors</a></li>
+        <li><a href="#" data-page="forum">Forum</a></li>
+        <li><a href="#" data-page="mentalHealth">Mental Health</a></li>
+        <li class="hidden" id="profileNavItem"><a href="#" data-page="profile">Profile</a></li>
+        <li id="loginNavItem"><a href="#" data-page="login">Login</a></li>
+        <li class="hidden" id="logoutNavItem"><a href="#" data-page="logout">Logout</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Sections -->
+  <section id="homeSection" class="section">
+    <h1>Empower Your Future</h1>
+    <p>Find resources, mentors, and communities to help you grow.</p>
+    <button data-page="courses">Get Started</button>
+  </section>
+
+  <section id="coursesSection" class="section hidden">
+    <h2>Skill-Building Courses</h2>
+    <div class="grid" id="coursesContainer"></div>
+  </section>
+
+  <section id="mentorsSection" class="section hidden">
+    <h2>Mentorship Opportunities</h2>
+    <div class="grid" id="mentorsContainer"></div>
+  </section>
+
+  <section id="forumSection" class="section hidden">
+    <h2>Community Forum</h2>
+    <p>Discuss career paths, share resources, and connect with peers.</p>
+    <div id="forumThreadsContainer"></div>
+  </section>
+
+  <section id="mentalHealthSection" class="section hidden">
+    <h2>Mental Health & Wellness</h2>
+    <ul id="mentalHealthList"></ul>
+  </section>
+
+  <section id="profileSection" class="section hidden">
+    <h2>Your Profile</h2>
+    <div id="profileContent"></div>
+  </section>
+
+  <section id="loginSection" class="section hidden">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <label>
+        Email
+        <input type="email" id="loginEmail" required>
+      </label><br><br>
+      <label>
+        Password
+        <input type="password" id="loginPassword" required>
+      </label><br><br>
+      <button type="submit">Login</button>
+    </form>
+    <div id="loginMessage"></div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2024 Youth Empowerment Assistant. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
